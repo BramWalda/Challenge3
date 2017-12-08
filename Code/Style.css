@@ -7,9 +7,11 @@ html, body {
 
 }
 
-.navbar {
-	background-color: #383838; 
+.nav {
+	display: inline;
 }
+
+
 
 /*FOOTER*/
 footer {
