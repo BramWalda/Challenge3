@@ -1,5 +1,5 @@
  $(document).ready(function(){
- 	$('.parallax-window').parallax();
+ 	
  		
  });
 
@@ -48,3 +48,7 @@ searchAlbums('let go');
  	
  });
 >>>>>>> 37cc02a2a0b72d43f42b8f32d5704860da3f7856
+
+
+
+
