@@ -4,6 +4,10 @@ html, body {
 
 }
 
+.navbar {
+	background-color: #383838; 
+}
+
 /*FOOTER*/
 footer {
 	text-align: justify;
@@ -71,12 +75,12 @@ h5 {
 	margin:0;
 }
 
-.header{ 
+/* .header{ 
 	color:white;
 	background-color:black;
 	background: linear-gradient(red, #FF334d); 
 	height:60px;
-}
+	} */
 
 .parallax-window{
 	height:800px;
