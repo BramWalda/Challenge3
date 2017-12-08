@@ -14,7 +14,7 @@ html, body {
 
 }
 
-.head{
+.header{
 	color:white;
 	background-color:black;
 	background: linear-gradient(black, #323533); 
@@ -24,7 +24,6 @@ html, body {
 .parallax{
 	height:800px;
 	width:100%;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,13 +31,13 @@ html, body {
 }
 
 .pageone {
-	
+	background-image:url(img/bg1.jpg);
 }
 
 .pagetwo {
-	background-color:red;
+	background-image:url(img/bg2.jpg);
 }
 
 .pagethree {
-	background-color:green;
+	background-image:url(img/bg3.jpg);
 }
