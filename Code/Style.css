@@ -58,10 +58,6 @@ h5 {
 
 .img-responsive {
 	width: 32px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 37cc02a2a0b72d43f42b8f32d5704860da3f7856
 	margin:0;
 	padding:0;
 }
@@ -71,11 +67,16 @@ h5 {
 	margin:0;
 }
 
-.header{ 
+.navbar{ 
 	color:white;
 	background-color:black;
 	background: linear-gradient(red, #FF334d); 
 	height:60px;
+	width:100%;
+}
+
+.navlist{
+	display:inline-block;
 }
 
 .parallax-window{
@@ -93,7 +94,8 @@ h5 {
 }
 
 .pageone {
-	background-color:;
+	background-color:#EFEFEF;
+	background-image:url(img/bg1.jpg);
 }
 
 .pagetwo {
@@ -102,4 +104,12 @@ h5 {
 
 .pagethree {
 	background-image:url(img/bg3.jpg);
+}
+
+#logo {
+	width:60px;
+}
+
+#image1 {
+	height: 200px;
 }
