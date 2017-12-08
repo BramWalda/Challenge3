@@ -4,24 +4,45 @@ html, body {
 
 }
 
+/*FOOTER*/
 footer {
-	text-align: center;
-	height: 300px;
-	position: absolute;
+	text-align: justify;
+	height: 340px;
 	width: 100%;
 	bottom: 0;
 	font-weight: lighter;
-	color: black;
+	color: white;
+	background-color: #383838;
+
+}
+
+.footerHeader {
+	padding: 15px;
+	background-color: #515151;
+}
+
+.footerrow {
+	padding: 0px 40px 0px 40px;
+}
+
+h5 {
+	text-align: center;
+	font-size: 18pt;
+	margin: 0px auto 20px auto;
+}
+
+.col {
+	margin: 20px 10px 20px 10px;
 }
 
 .footerlist {
-	list-style: none;
+	list-style: none;	
 	padding-left: 5px;
 
 }
-
+	
 .footertext {
-	font-size: 12pt;
+	font-size: 10pt;
 }
 
 .sm {
@@ -31,12 +52,16 @@ footer {
 
 .iconlist {
 	display: inline;
-	padding:5px;
+	padding: 15px;
 	float: left;
 }
 
 .img-responsive {
 	width: 32px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37cc02a2a0b72d43f42b8f32d5704860da3f7856
 	margin:0;
 	padding:0;
 }
