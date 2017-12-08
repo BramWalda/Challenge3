@@ -7,10 +7,6 @@ html, body {
 
 }
 
-.nav {
-	display: inline;
-}
-
 
 
 /*FOOTER*/
@@ -94,9 +90,6 @@ h5 {
 	margin:0px;
 }
 
-.navlist{
-	display:inline-block;
-}
 >>>>>>> 008d3393193ed146c7df3ab667fdb49e3b72293e
 
 .parallax-window{
