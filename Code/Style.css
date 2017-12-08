@@ -1,6 +1,44 @@
-
-
-html body {
+html, body {
 	width: 100%;
 	height: 100%;
+	margin:0;
+	padding:0;
+}
+
+.container-fluid{
+	padding:0;
+	margin:0;
+}
+
+.row {
+
+}
+
+.head{
+	color:white;
+	background-color:black;
+	background: linear-gradient(black, #323533); 
+	height:60px;
+}
+
+.parallax{
+	height:800px;
+	width:100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pageone {
+
+}
+
+.pagetwo {
+	background-color:red;
+}
+
+.pagethree {
+	background-color:green;
 }
