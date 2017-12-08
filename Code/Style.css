@@ -161,6 +161,22 @@ h5 {
 	height:200px;
 }
 
+/* Michal */
+.col.cal{
+	padding: 0;
+	height: 100px;
+	background-color: #cce7ff;
+	border: 1px solid black;
+	text-align: center;
+}
+.col.cal.black{
+	background-color: black;
+	border: 1px solid #cce7ff;
+	color: #cce7ff;
+}
+/* Michal (end)*/
+
+
 
 
 
