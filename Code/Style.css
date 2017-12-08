@@ -1,6 +1,9 @@
 html, body {
 	width: 100%;
 	height: 100%;
+	padding:0;
+	margin:0;
+	font-family:Courier New;
 
 }
 
@@ -33,6 +36,7 @@ h5 {
 
 .col {
 	margin: 20px 10px 20px 10px;
+	text-align:center;
 }
 
 .footerlist {
@@ -73,6 +77,8 @@ h5 {
 	background: linear-gradient(red, #FF334d); 
 	height:60px;
 	width:100%;
+	padding:0px;
+	margin:0px;
 }
 
 .navlist{
@@ -80,30 +86,34 @@ h5 {
 }
 
 .parallax-window{
-	height:800px;
+	height:600px;
 	width:100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding:0;
+    margin:0;
 }
 
 .whitepage{
-	background: linear-gradient(red, orange); 
+	background: linear-gradient(silver,white); 
+	height:400px;
 
 }
 
 .pageone {
 	background-color:#EFEFEF;
-	background-image:url(img/bg1.jpg);
+	background-image:url(img/bg8.jpg);
+	text-align:center;
 }
 
 .pagetwo {
-	background-image:url(img/bg2.jpg);
+	background-image:url(img/bg6.jpg);
 }
 
 .pagethree {
-	background-image:url(img/bg3.jpg);
+	background-image:url(img/bg7.jpg);
 }
 
 #logo {
@@ -113,3 +123,56 @@ h5 {
 #image1 {
 	height: 200px;
 }
+
+.jumbotron{
+	background: linear-gradient(white, #eaeaea); 
+	padding:10px;
+}
+
+.jumbotron1{
+	margin-left:100px;
+	margin-top:50px;
+	height:50%;
+	width:75%;
+	border-style:;
+}
+
+.jumbotron2{
+	margin-top:250px;
+	margin-left:150px;
+	height:50%;
+	width:75%;
+}
+
+.textpageone{
+	margin-top:200px;
+}
+
+.snow {
+	height:900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
