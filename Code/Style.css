@@ -116,7 +116,7 @@ h5 {
 
 .pageone {
 	background-color:#EFEFEF;
-	background-image:url(img/bg8.jpg);
+	background-image:url(img/bg8.png);
 	text-align:center;
 }
 
@@ -126,14 +126,6 @@ h5 {
 
 .pagethree {
 	background-image:url(img/bg7.jpg);
-}
-
-#logo {
-	width:60px;
-}
-
-#image1 {
-	height: 200px;
 }
 
 .jumbotron{
@@ -161,9 +153,13 @@ h5 {
 }
 
 .snow {
-	height:900px;
+	height:600px;
 }
 
+#clock {
+	width:500px;
+	height:200px;
+}
 
 
 

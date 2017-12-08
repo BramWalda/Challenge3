@@ -1,7 +1,24 @@
  $(document).ready(function(){
  	
+<<<<<<< HEAD
+ 		
+ });
+
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+=======
+	// 2. This code loads the IFrame Player API code asynchronously.
+ 	var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsById('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+>>>>>>> origin/master
+=======
  	
  		console.log('hi');
+>>>>>>> 008d3393193ed146c7df3ab667fdb49e3b72293e
 
  	$.ajax({
  		url: 'https://api.spotify.com/v1/search',
@@ -21,4 +38,11 @@ function displayResults(response_body){
 }
 
  });
+<<<<<<< HEAD
+>>>>>>> 37cc02a2a0b72d43f42b8f32d5704860da3f7856
+
+
+
+=======
+>>>>>>> 008d3393193ed146c7df3ab667fdb49e3b72293e
 
