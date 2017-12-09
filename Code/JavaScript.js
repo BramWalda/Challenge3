@@ -17,7 +17,7 @@
 			image.attr('alt','playlist image')
 			image.attr('height',50);
 			image.appendTo(row);
-			row.append('<span><a href = "#APIs" data-playlist-uri="' + item.uri + '"">' + item.name + '</a></span>');
+			row.append('<span><a href = "#APIs" data-playlist-uri="' + item.uri + '"">' + item.name.substring(0, 40) + '</a></span>');
 			row.appendTo(col);
 		});
 		col.appendTo('.playlists');
