@@ -100,8 +100,12 @@
     for (i=1; i<=24; i++){
 		var d = new Date();
 	    var n = d.getDate();
-    	if($('#' + i).attr('id')<n){
-    		$('#' + i).addClass('black');
+	    if($('#' + i).attr('id')==n){
+	    	$('#' + i).addClass('red');
+	    } else {
+	    	if($('#' + i).attr('id')<n){
+	    		$('#' + i).addClass('black');	
+	    	}
     	};
     };
 
