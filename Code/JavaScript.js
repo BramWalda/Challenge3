@@ -3,8 +3,10 @@
  	// Michal
 
  	// SPOTIFY
+	var offset = 0;
+
 	function showURLs(response){
-		console.log(response)
+		//console.log(response)
 		var col = $(document.createElement('div'));
 		col.attr('class','col-6');
 		response.playlists.items.forEach(function(item){
@@ -24,13 +26,13 @@
 		col_2.appendTo('.playlists');
 	};
 
-	function retrievePlaylists(searchQuery){
+	function retrievePlaylists(searchQuery, offset){
 		$.ajax({
 			url: 'https://api.spotify.com/v1/search',
 			method: 'GET',
 			accepts: 'application/json',
 			headers: {
-				Authorization: 'Bearer BQBvvxWkhcvi25bCIhJSDEvdM-MIBxzKmJnwHLG_dh8lCWpFkzlgF77j0BKxn1WIh3c-ZZuUeIMtyZYk-LKiqhl--f2ANPvxzGcCMB7QmVvxlFaifeNRQ6Yv_ji5qDS1Bbe-wl5lyWP2vip3Hns'
+				Authorization: 'Bearer BQA55Ir2FI7fIOiygOBF2f-AzIXijonctcI2MzhbXkKxdkscRrovZsYUO8ZYdpkPt0neTLBgFFOuo6ll4WZGOicEkzesySJVapweU31dBOLmw6o_jw3KjelrYRu-WyJOrJ9UfEg4tvGhiQ5ybzo'
 				// Note: the authorization token expires after one hour!
 				// It cannot be done in other way unless I put my Client Secret ID in the code.
 				// Therefore, before the website is presented new token has to be generated.
@@ -38,25 +40,40 @@
 			data: {
 				q: searchQuery,
 				type: 'playlist',
-				limit: 10
+				limit: 10,
+				offset: offset
 			},
 			// success: function(response){console.log(response)}
 			success: showURLs
 	});
 	}
 
-	$('button').click(function(e){
+	$('button.search').click(function(e){
 		e.preventDefault();
 		$('.playlists').empty();
 		searchQuery = $('.search:input').val();
-		retrievePlaylists(searchQuery);
+		retrievePlaylists(searchQuery, offset);
 	});
+
+	$('button.prev').click(function(){
+		if (offset != 0){
+			offset -= 10;
+			$('.playlists').empty();
+			retrievePlaylists(searchQuery, offset);
+		}
+	});
+
+	$('button.next').click(function(){
+		offset += 10;
+		$('.playlists').empty();
+		retrievePlaylists(searchQuery, offset);
+	})
 
 	// $('input').keydown(function(e){
 	// 	if (e.keyCode == 13){
 	// 		$('.playlists').empty();
 	// 		searchQuery = $('.search:input').val();
-	// 		retrievePlaylists(searchQuery);
+	// 		retrievePlaylists(searchQuery, offset);
 	// 	};
 	// });
 
