@@ -181,6 +181,7 @@ h5 {
 
 .recipes{
 	background-color: rgba(255,0,0,0.8);
+	opacity: 0.85;
 }
 
 .recipes h4{
@@ -194,6 +195,7 @@ h5 {
 .recipes p {
 	text-align: center;
 }
+
 
 
 

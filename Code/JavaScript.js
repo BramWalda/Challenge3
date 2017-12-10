@@ -33,7 +33,7 @@
 			method: 'GET',
 			accepts: 'application/json',
 			headers: {
-				Authorization: 'Bearer BQDEZ5Qdf6VUhdCPGGFngqKamEFZxuQ1xsVfBOeaVPOWQT_p_MKu5wkgT8uMcL4ZLjV5c31rYbWSZaqi1tVnOfmIBU3EuomS2tW-NzgGJ1BKo7IjIMW0Ocokc_6fC9-JSle2v6vg0Yl-sFc6vyU'
+				Authorization: 'Bearer BQAeGUmg4bc5rLg6vkAyYs0_48YvPs8s9GOXTS24C6muwyLygwFb39_SKouQm1CFdz1HwqnV-Wf1bFe65NwM8LhIbnJW-zOxh5eUWs7MskZdSLLUgS5piDD4fburNLs-huNkdI8QZkfkC-aWPMc'
 				// Note: the authorization token expires after one hour!
 				// It cannot be done in other way unless I put my Client Secret ID in the code.
 				// Therefore, before the website is presented and/or graded by Lars new token 
@@ -171,6 +171,40 @@
 	});
 
  	// Michal (end)
+
+ 	//Gia 
+
+ 	$('.recipes').hover(function(){
+    	$(this).animate({'opacity': '1'},500);
+
+    }, function(){
+    	$(this).animate({'opacity': '0.85'}, 500);
+    }
+
+    );
+
+    $('.button1').click(function() {
+    		$(".1").html( "<img src='img/cookie.gif'>" );
+			});
+
+    $('.button2').click(function() {
+    		$(".2").html( "<img src='img/present.gif' width='300'>" );
+			});
+
+    $('.button3').click(function() {
+    		$(".3").html( "<img src='img/read.gif'>" );
+			});
+
+    $('.button4').click(function() {
+    		$(".4").html( "<img src='img/spirit.gif' width='270'>" );
+			});
+
+    $('.button5').click(function() {
+    		$(".5").html( "<img src='img/calm.gif'>" );
+			});
+
+
+ 	//Gia (end)
 
 
 
