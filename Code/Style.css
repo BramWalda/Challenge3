@@ -73,27 +73,9 @@ h5 {
 	margin:0;
 }
 
-<<<<<<< HEAD
-/* .header{ 
-=======
-.navbar{ 
->>>>>>> 008d3393193ed146c7df3ab667fdb49e3b72293e
-	color:white;
-	background-color:black;
-	background: linear-gradient(red, #FF334d); 
-	height:60px;
-<<<<<<< HEAD
-	} */
-=======
-	width:100%;
-	padding:0px;
-	margin:0px;
-}
-
->>>>>>> 008d3393193ed146c7df3ab667fdb49e3b72293e
 
 .parallax-window{
-	height:600px;
+	height:800px;
 	width:100%;
     background-attachment: fixed;
     background-position: center;
@@ -111,7 +93,7 @@ h5 {
 
 .pageone {
 	background-color:#EFEFEF;
-	background-image:url(img/bg8.png);
+	background-image:url(img/bg8.png); 
 	text-align:center;
 }
 
@@ -173,6 +155,30 @@ h5 {
 	background-color: #e15d57;
 }
 /* Michal (end)*/
+
+.title{
+	margin-top: 150px;
+	margin-bottom: 0px
+	padding-bottom: 0px;
+}
+
+.calendar{
+	margin: 0px;
+	padding: 0px;
+}
+.firstRow{
+	margin: 0px;
+	padding: 0px;
+}
+.secondRow{
+	margin: 0px;
+	padding: 0px;
+}
+.thirdRow{
+	margin: 0px;
+	padding: 0px;
+}
+
 
 
 
