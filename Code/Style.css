@@ -180,11 +180,19 @@ h5 {
 }
 
 .recipes{
-	background-color: red;
+	background-color: rgba(255,0,0,0.8);
 }
 
-.recipes2{
-	background-color: red;
+.recipes h4{
+	font-weight: bold;
+}
+
+.recipes img{
+	margin: 10px 0px;
+}
+
+.recipes p {
+	text-align: center;
 }
 
 
