@@ -12,7 +12,7 @@ html, body {
 /*FOOTER*/
 footer {
 	text-align: justify;
-	height: 340px;
+	height: auto;
 	width: 100%;
 	bottom: 0;
 	font-weight: lighter;
@@ -54,12 +54,15 @@ h5 {
 .sm {
 	list-style: none;
 	overflow: auto;
+	margin: 0px;
+	height: 50px;
 }
 
 .iconlist {
 	display: inline;
 	padding: 15px;
-	float: left;
+	float: middle;
+
 }
 
 .img-responsive {
@@ -197,8 +200,9 @@ h5 {
 	text-align: center;
 }
 
-
-
+.countdown {
+		padding-top: 50px;
+}
 
 
 
