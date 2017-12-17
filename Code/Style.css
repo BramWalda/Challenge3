@@ -4,10 +4,7 @@ html, body {
 	padding:0;
 	margin:0;
 	font-family:Courier New;
-
 }
-
-
 
 /*FOOTER*/
 footer {
@@ -18,7 +15,6 @@ footer {
 	font-weight: lighter;
 	color: white;
 	background-color: #383838;
-
 }
 
 .footerHeader {
@@ -44,7 +40,6 @@ h5 {
 .footerlist {
 	list-style: none;	
 	padding-left: 5px;
-
 }
 	
 .footertext {
@@ -73,28 +68,25 @@ h5 {
 	margin:0;
 }
 
-
 .parallax-window{
 	height:800px;
 	width:100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:0;
-    margin:0;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:0;
+	margin:0;
 }
 
 .whitepage{
 	background: linear-gradient(silver,white); 
 	height:400px;
-
 }
 
 .pageone {
-	background-color:#EFEFEF;
 	background-image:url(img/bg8.png); 
-	text-align:center;
+	color:black;
 }
 
 .pagetwo {
@@ -194,6 +186,10 @@ h5 {
 
 .recipes p {
 	text-align: center;
+}
+
+#defaultCountdown{
+	margin-top:200px;
 }
 
 
