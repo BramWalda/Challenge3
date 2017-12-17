@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Challenge3</title>
 	<meta charset="utf-8">
@@ -23,15 +23,15 @@
       			<a class="nav-link" href="christmascountdown.html">Christmas Countdown</a>
     		</li>
     		<li class="nav-item dropdown">
-		      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+		      <a class="nav-link dropdown-toggle" href="lonelychristmas.html" id="navbardrop" data-toggle="dropdown">
 		        A Lonely Christmas
 		      </a>
 		      <div class="dropdown-menu">
-		        <a class="dropdown-item" href="#">Having a Lonely Christmas?</a>
+		        <a class="dropdown-item" href="lonelychristmas.html">Having a Lonely Christmas?</a>
 		        <div class="dropdown-divider"></div>
-		        <a class="dropdown-item" href="#">Ultimate Christmas Guide</a>
+		        <a class="dropdown-item" href="lonelychristmas.html">Ultimate Christmas Guide</a>
 		        <div class="dropdown-divider"></div>
-		        <a class="dropdown-item" href="#">Christmas Fun</a>
+		        <a class="dropdown-item" href="lonelychristmas.html">Christmas Fun</a>
 		      </div>
     		</li>
 		    <li class="nav-item active">
@@ -39,12 +39,11 @@
     		</li>
 
     	</ul>
-      </div>	
-
-	  <form class="form-inline my-2 my-lg-0">
-	    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-	    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	    </form>
+      </div>
+		  <form class="form-inline my-2 my-lg-0 justify-content-end">
+		    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+		    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		  </form>
 	  
 	</nav>
 
@@ -52,11 +51,19 @@
 	<div id='container-fluid'>
 		<div class='row parallax-window pageone'>
 			<div class='col'>
+<<<<<<< HEAD
 				
 				<div id="defaultCountdown"> 
 					dafdsa
 				</div>
 
+=======
+				Content here
+			</div>
+			<div class='col'>
+				<iframe class="countdown" src="http://free.timeanddate.com/countdown/i60zqw5k/n16/cf100/cm0/cu5/ct0/cs0/ca0/co1/cr0/ss0/cacf00/cpc000/pceee/tcfff/fs175/szw576/szh243/tatTime%20left%20to%20Christmas/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2017-12-25T00:00:00" allowTransparency="true" frameborder="0" width="576" height="243"></iframe>
+			<!-- <iframe class="countdown" width="350" height="180" src="https://w2.countingdownto.com/2039572" frameborder="0"></iframe> -->
+>>>>>>> 67169417cd8d58bb97467df1380284cb591a2afd
 			</div>
 		</div>
 	</div>
@@ -124,10 +131,10 @@
 							<label class="sr-only">Search query input</label>
 							<input class="form-control search" type="text" name="search">
 						</div>
-					</form>
 					<button type="submit" class="btn btn-light search">Search</button>
 					<button type="submit" class="btn btn-light prev">Prev.</button>
 					<button type="submit" class="btn btn-light next">Next</button>
+					</form>
 				</div>
 			</div>
 			<div id="playlists" class="row"></div>
@@ -138,14 +145,18 @@
 				<div class="row thirdRow"></div>
 			</div> -->
 			<h3>Weather forecast</h3>
-			<form class="form-inline">
-				<div class="form-group">
-					<label class="sr-only">Search query input</label>
-					<input class="form-control searchCity" type="text" name="search">
+			<div class="row">
+				<div class="col">
+					<form class="form-inline">
+						<div class="form-group">
+							<label class="sr-only">Search query input</label>
+							<input class="form-control searchCity" type="text" name="search">
+						</div>
+					<button type="submit" class="btn btn-light searchCity">Search</button>
+					</form>
+					<div id="weather" class="row"></div>
 				</div>
-			</form>
-			<button type="submit" class="btn btn-light searchCity">Search</button>
-			<div id="weather" class="row"></div>
+			</div>
 		</div>
 	<!-- Michal (end)-->
 
@@ -160,15 +171,14 @@
 				<p class="footertext">
 					Welcome to Santa's only Elf Outpost in Cork <br>
 					Santa’s head Elf has been secretly looking around Cork for a private outpost to make sure the boys and girls of Cork get their toys in time for Christmas. He has also recruited a merry band of real Cork Elves to run the show. <br>
-					Located deep in the woods in Cuskinny, just five minutes from Cobh, the Cork Elves & Santa have given special permission for a lucky few to come and pay them a visit this December!
+					Located deep in the woods in Cuskinny, just five minutes from Cobh, the Cork Elves &amp; Santa have given special permission for a lucky few to come and pay them a visit this December!
 				</p>
 			</div>	
 
 			<div class="col">
 				<h5>Our Location</h5>
-			<!--
-				<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJufLF1VFNMlERZInZ2RR3Gto&key=AIzaSyAqvm7v367AWWWeYW_PcYa32oqeI9kGtsI" allowfullscreen></iframe>
-			-->
+
+				<iframe width="auto" height="auto" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=north%20pole&key=AIzaSyA3HHMRqY9uv5G-gYvvTdJ0on18tB-A_fQ" allowfullscreen></iframe>
 			</div>
 
 			<div class="col">
@@ -191,13 +201,11 @@
 		</div>
 	</footer>
 
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqvm7v367AWWWeYW_PcYa32oqeI9kGtsI&callback=initMap"
-    async defer></script>
     <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="JavaScript.js"></script> 
+	<script src="JavaScript.js"></script> 
 </body>
 
 

@@ -1,0 +1,26 @@
+
+iframe {
+	width: auto;
+	height: auto;
+	align-content: center;
+}
+
+.mariah {
+	display: flex;
+	align-content: center;
+	text-align: center;
+}
+
+.carousel {
+	width: 70%;
+	max-height: 300px;
+}
+
+.d-block {
+	max-height: 550px;
+	width: auto;
+}
+
+.pagetwo {
+	max-height: 60%;
+}

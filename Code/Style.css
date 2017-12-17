@@ -3,13 +3,18 @@ html, body {
 	height: 100%;
 	padding:0;
 	margin:0;
+<<<<<<< HEAD
 	font-family:Courier New;
+=======
+	font-family:'Courier New', serif;
+
+>>>>>>> 67169417cd8d58bb97467df1380284cb591a2afd
 }
 
 /*FOOTER*/
 footer {
 	text-align: justify;
-	height: 340px;
+	height: auto;
 	width: 100%;
 	bottom: 0;
 	font-weight: lighter;
@@ -49,12 +54,15 @@ h5 {
 .sm {
 	list-style: none;
 	overflow: auto;
+	margin: 0px;
+	height: 50px;
 }
 
 .iconlist {
 	display: inline;
 	padding: 15px;
-	float: left;
+	float: middle;
+
 }
 
 .img-responsive {
@@ -146,12 +154,29 @@ h5 {
 .col.cal.red{
 	background-color: #e15d57;
 }
+.playlistsLinks, .cities{
+	padding-left: 10px;
+	color: #515151;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+}
+.playlistsRows{
+	margin: 5px auto;
+	text-align: left;
+}
+#APIs{
+	margin: 20px auto;
+}
+#weather{
+	margin: 10px auto;
+}
 /* Michal (end)*/
 
 .title{
 	margin-top: 150px;
 	margin-bottom: 0px
 	padding-bottom: 0px;
+	height: 50px;
 }
 
 .calendar{
@@ -188,12 +213,18 @@ h5 {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 #defaultCountdown{
 	margin-top:200px;
 }
 
 
 
+=======
+.countdown {
+		padding-top: 50px;
+}
+>>>>>>> 67169417cd8d58bb97467df1380284cb591a2afd
 
 
 
