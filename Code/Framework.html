@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Challenge3</title>
 	<meta charset="utf-8">
@@ -41,12 +41,11 @@
     		</li>
 
     	</ul>
-      </div>	
-
-	  <form class="form-inline my-2 my-lg-0">
-	    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-	    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	    </form>
+      </div>
+		  <form class="form-inline my-2 my-lg-0 justify-content-end">
+		    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+		    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		  </form>
 	  
 	</nav>
 
@@ -126,10 +125,10 @@
 							<label class="sr-only">Search query input</label>
 							<input class="form-control search" type="text" name="search">
 						</div>
-					</form>
 					<button type="submit" class="btn btn-light search">Search</button>
 					<button type="submit" class="btn btn-light prev">Prev.</button>
 					<button type="submit" class="btn btn-light next">Next</button>
+					</form>
 				</div>
 			</div>
 			<div id="playlists" class="row"></div>
@@ -140,14 +139,18 @@
 				<div class="row thirdRow"></div>
 			</div> -->
 			<h3>Weather forecast</h3>
-			<form class="form-inline">
-				<div class="form-group">
-					<label class="sr-only">Search query input</label>
-					<input class="form-control searchCity" type="text" name="search">
+			<div class="row">
+				<div class="col">
+					<form class="form-inline">
+						<div class="form-group">
+							<label class="sr-only">Search query input</label>
+							<input class="form-control searchCity" type="text" name="search">
+						</div>
+					<button type="submit" class="btn btn-light searchCity">Search</button>
+					</form>
+					<div id="weather" class="row"></div>
 				</div>
-			</form>
-			<button type="submit" class="btn btn-light searchCity">Search</button>
-			<div id="weather" class="row"></div>
+			</div>
 		</div>
 	<!-- Michal (end)-->
 
@@ -162,7 +165,7 @@
 				<p class="footertext">
 					Welcome to Santa's only Elf Outpost in Cork <br>
 					Santa’s head Elf has been secretly looking around Cork for a private outpost to make sure the boys and girls of Cork get their toys in time for Christmas. He has also recruited a merry band of real Cork Elves to run the show. <br>
-					Located deep in the woods in Cuskinny, just five minutes from Cobh, the Cork Elves & Santa have given special permission for a lucky few to come and pay them a visit this December!
+					Located deep in the woods in Cuskinny, just five minutes from Cobh, the Cork Elves &amp; Santa have given special permission for a lucky few to come and pay them a visit this December!
 				</p>
 			</div>	
 
@@ -196,7 +199,7 @@
 	<script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="JavaScript.js"></script> 
+	<script src="JavaScript.js"></script> 
 </body>
 
 
