@@ -4,7 +4,6 @@ html, body {
 	padding:0;
 	margin:0;
 	font-family:Courier New;
-
 }
 
 
@@ -65,6 +64,8 @@ h5 {
 
 }
 
+/*GRID*/
+
 .img-responsive {
 	width: 32px;
 	margin:0;
@@ -75,7 +76,6 @@ h5 {
 	padding:0;
 	margin:0;
 }
-
 
 .parallax-window{
 	height:800px;
@@ -90,7 +90,8 @@ h5 {
 
 .whitepage{
 	background: linear-gradient(silver,white); 
-	height:400px;
+	height: 270px;
+	width: 100%;
 
 }
 
@@ -98,6 +99,29 @@ h5 {
 	background-color:#EFEFEF;
 	background-image:url(img/bg8.png); 
 	text-align:center;
+}
+
+.countdown {
+	margin: 0 auto;
+    display: block;
+    border: 1px solid #ccc;
+    display: inline-block;
+    position: relative;
+    top: 30%; 
+}
+
+.randomcontent {
+	text-align: justify;
+}
+
+.almost {
+		font-weight: bold;
+}
+
+.textmiddle {
+	font-size: 60pt; 
+	color: red;
+	text-align: center;
 }
 
 .pagetwo {
@@ -200,9 +224,7 @@ h5 {
 	text-align: center;
 }
 
-.countdown {
-		padding-top: 50px;
-}
+
 
 
 
