@@ -9,10 +9,11 @@
 	function showURLs(response){
 		//console.log(response)
 		var col = $(document.createElement('div'));
-		col.attr('class','col-6');
+		col.attr('class','col');
 		response.playlists.items.forEach(function(item){
 			var row = $(document.createElement('div'));
 			row.attr('class','row');
+			row.attr('class','playlistsRows');
 			var image = $(document.createElement('img'));
 			image.attr('src',item.images[0].url);
 			image.attr('alt','playlist image')
@@ -23,7 +24,7 @@
 		});
 		col.appendTo('#playlists');
 		var col_2 = $(document.createElement('div'));
-		col_2.attr('class','col-6 spotifyPlayer');
+		col_2.attr('class','col spotifyPlayer');
 		col_2.appendTo('#playlists');
 	};
 
@@ -33,7 +34,7 @@
 			method: 'GET',
 			accepts: 'application/json',
 			headers: {
-				Authorization: 'Bearer BQAeGUmg4bc5rLg6vkAyYs0_48YvPs8s9GOXTS24C6muwyLygwFb39_SKouQm1CFdz1HwqnV-Wf1bFe65NwM8LhIbnJW-zOxh5eUWs7MskZdSLLUgS5piDD4fburNLs-huNkdI8QZkfkC-aWPMc'
+				Authorization: 'Bearer BQBX7ItjxuAIoAvjCozFdTU_U2tKr3QqGBdt3OYMJamM90G9r-7d-TE_2fLDQMFOno5GA_YMbZx5CrsVjHmmKy0_92emYztH9jzul8Yn9FHivbDJOdIaID8M1O3DKDZGgIRjmvuEz6d_JOJfw7E'
 				// Note: the authorization token expires after one hour!
 				// It cannot be done in other way unless I put my Client Secret ID in the code.
 				// Therefore, before the website is presented and/or graded by Lars new token 
@@ -122,8 +123,8 @@
      	//console.log(response)
      	var col = $(document.createElement('div'));
 		col.attr('class','col');
+		col.attr('class','text-left');
     	response.slice(0,5).forEach(function(item){
-    		//console.log(item.EnglishName + ' (' + item.Country.EnglishName + ' - ' + item.AdministrativeArea.EnglishName + ')');
     		var div = $(document.createElement('div'));
     		div.append('<span><a href = "#weather" class="cities" data-ID="' + item.Key + '">' + item.EnglishName + ' (' + item.Country.EnglishName + ' - ' + item.AdministrativeArea.EnglishName + ')' + '</a></span>');
     		div.appendTo(col);
@@ -149,9 +150,10 @@
      function displayForecastValues(response){
      	var col = $(document.createElement('div'));
 		col.attr('class','col');
+		col.attr('class','text-left');
 		response.DailyForecasts.forEach(function(item){
 			var div = $(document.createElement('div'));
-			div.append(item.Date.slice(0,10) + ', Temperature: Min ' + item.Temperature.Minimum.Value + ' °C; Max ' + item.Temperature.Maximum.Value + ' °C');
+			div.append('<strong>' + item.Date.slice(0,10) + '</strong>, Temperature: Min ' + item.Temperature.Minimum.Value + ' °C; Max ' + item.Temperature.Maximum.Value + ' °C');
 			div.appendTo(col);
 		});
      	col.appendTo('#weather');
@@ -208,4 +210,31 @@
 
 
 
- });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

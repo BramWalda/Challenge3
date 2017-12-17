@@ -3,10 +3,16 @@ html, body {
 	height: 100%;
 	padding:0;
 	margin:0;
+<<<<<<< HEAD
 	font-family:Courier New;
+<<<<<<< HEAD
+=======
+=======
+	font-family:'Courier New', serif;
+
+>>>>>>> 67169417cd8d58bb97467df1380284cb591a2afd
+>>>>>>> 97fcfa7a71890dc06ce79338c473b635aa5b09d0
 }
-
-
 
 /*FOOTER*/
 footer {
@@ -17,7 +23,6 @@ footer {
 	font-weight: lighter;
 	color: white;
 	background-color: #383838;
-
 }
 
 .footerHeader {
@@ -43,7 +48,6 @@ h5 {
 .footerlist {
 	list-style: none;	
 	padding-left: 5px;
-
 }
 	
 .footertext {
@@ -80,25 +84,28 @@ h5 {
 .parallax-window{
 	height:800px;
 	width:100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:0;
-    margin:0;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:0;
+	margin:0;
 }
 
 .whitepage{
 	background: linear-gradient(silver,white); 
+<<<<<<< HEAD
 	height: 270px;
 	width: 100%;
 
+=======
+	height:400px;
+>>>>>>> 97fcfa7a71890dc06ce79338c473b635aa5b09d0
 }
 
 .pageone {
-	background-color:#EFEFEF;
 	background-image:url(img/bg8.png); 
-	text-align:center;
+	color:black;
 }
 
 .countdown {
@@ -181,6 +188,22 @@ h5 {
 .col.cal.red{
 	background-color: #e15d57;
 }
+.playlistsLinks, .cities{
+	padding-left: 10px;
+	color: #515151;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+}
+.playlistsRows{
+	margin: 5px auto;
+	text-align: left;
+}
+#APIs{
+	margin: 20px auto;
+}
+#weather{
+	margin: 10px auto;
+}
 /* Michal (end)*/
 
 .title{
@@ -224,7 +247,22 @@ h5 {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+#defaultCountdown{
+	margin-top:200px;
+}
+
+
+
+=======
+.countdown {
+		padding-top: 50px;
+}
+>>>>>>> 67169417cd8d58bb97467df1380284cb591a2afd
+>>>>>>> 97fcfa7a71890dc06ce79338c473b635aa5b09d0
 
 
 
