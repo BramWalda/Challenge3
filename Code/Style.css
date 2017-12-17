@@ -3,12 +3,12 @@ html, body {
 	height: 100%;
 	padding:0;
 	margin:0;
-<<<<<<< HEAD
+
 	font-family:Courier New;
 =======
 	font-family:'Courier New', serif;
 
->>>>>>> 67169417cd8d58bb97467df1380284cb591a2afd
+
 }
 
 /*FOOTER*/
@@ -213,18 +213,16 @@ h5 {
 	text-align: center;
 }
 
-<<<<<<< HEAD
 #defaultCountdown{
 	margin-top:200px;
 }
 
-
-
-=======
 .countdown {
-		padding-top: 50px;
+	padding-top:50px;
+	margin-top:200px;
+	opacity:0.8;
 }
->>>>>>> 67169417cd8d58bb97467df1380284cb591a2afd
+
 
 
 
