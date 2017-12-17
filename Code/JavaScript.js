@@ -1,8 +1,5 @@
  $(document).ready(function(){
  
- 	// Michal
- 	// SPOTIFY
-
 	var offset = 0;
 
 	function showURLs(response){
@@ -33,7 +30,7 @@
 			method: 'GET',
 			accepts: 'application/json',
 			headers: {
-				Authorization: 'Bearer BQBX7ItjxuAIoAvjCozFdTU_U2tKr3QqGBdt3OYMJamM90G9r-7d-TE_2fLDQMFOno5GA_YMbZx5CrsVjHmmKy0_92emYztH9jzul8Yn9FHivbDJOdIaID8M1O3DKDZGgIRjmvuEz6d_JOJfw7E'
+				Authorization: 'Bearer BQD7bybvZZI2tJ3Mg3ZSDepq9wvSYeST5FyMtu_6VCar-_C4JK5b2XQbd5R9VcIiJ3_C24vtvUc2yNNocKvd2FSADLk2UeaCwE-oBanZAOTC8WpMlYKyLUwrT6CusXAfmeiBIBppzdMcyJBuQsg'
 				// Note: the authorization token expires after one hour!
 				// It cannot be done in other way unless I put my Client Secret ID in the code.
 				// Therefore, before the website is presented and/or graded by Lars new token 
@@ -171,10 +168,6 @@
 		searchCities(sQuery);
 	});
 
- 	// Michal (end)
-
- 	//Gia 
-
  	$('.recipes').hover(function(){
     	$(this).animate({'opacity': '1'},500);
 
@@ -204,11 +197,7 @@
     		$(".5").html( "<img src='img/calm.gif'>" );
 			});
   })
-//Gia (end)
 
-// Max
-
- // Max end
 
 
 
