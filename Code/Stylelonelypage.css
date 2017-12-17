@@ -5,22 +5,27 @@ iframe {
 	align-content: center;
 }*/
 
+h1 {
+	text-align: center;
+	padding-top: 20px;
+}
+
 .video {
 	width: auto;
 	height: auto;
-	align-content: center;
-	margin: 0 auto;
-    display: block;
-    border: 1px solid #ccc;
-    display: inline-block;
-    position: relative;
-    top: 30%; 
+    margin: 20px 10px 20px 10px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.textvideo {
+	text-align: justify;
+	padding: 0px 100px 0px 100px;
 }
 
 .mariah {
 	display: flex;
-	align-content: center;
-	text-align: center;
+	display: inline-block;
 }
 
 .carousel {
@@ -36,3 +41,4 @@ iframe {
 .pagetwo {
 	max-height: 60%;
 }
+
