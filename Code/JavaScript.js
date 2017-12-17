@@ -1,7 +1,6 @@
  $(document).ready(function(){
  
  	// Michal
-
  	// SPOTIFY
 
 	var offset = 0;
@@ -204,37 +203,12 @@
     $('.button5').click(function() {
     		$(".5").html( "<img src='img/calm.gif'>" );
 			});
+  })
+//Gia (end)
 
+// Max
 
- 	//Gia (end)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ // Max end
 
 
 
