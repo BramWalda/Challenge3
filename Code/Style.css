@@ -18,6 +18,10 @@ footer {
 	background-color: #383838;
 }
 
+.imgage{
+	width:100%;
+}
+
 .footerHeader {
 	padding: 15px;
 	background-color: #515151;
@@ -78,7 +82,7 @@ h5 {
 }
 
 .parallax-window{
-	height:800px;
+	height:850px;
 	width:100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -248,4 +252,8 @@ h5 {
 	text-align:right;
 	display:inline-block;
 	align-content:right;
+}
+
+.kerstmus {
+	text-align:center;
 }
